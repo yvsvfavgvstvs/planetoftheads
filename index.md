@@ -1,4 +1,4 @@
-## Welcome to PLANET of the ADS
+## PLANET of the ADS
 
 Reach the right person in the right place at the right time.
 
@@ -7,9 +7,6 @@ Reach the right person in the right place at the right time.
 ### FB Ads
 ### IG Ads
 ### ETC. Ads
-
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 

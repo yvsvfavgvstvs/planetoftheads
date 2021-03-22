@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html>
-
 <head>
-	<title>PLANET of the ADS</title>
 
 
 	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
@@ -28,5 +24,3 @@
 	</div>
 
 </body>
-
-</html>

@@ -23,7 +23,7 @@
 	<div id='stars3'></div>
 
 	<div id='title'>
-		<img id="logo" src="logo.png"> <br>
+		<img id="logo" src="img/logo.png"> <br>
 		<span>we run ads</span>
 	</div>
 

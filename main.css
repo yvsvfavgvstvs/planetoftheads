@@ -60,7 +60,7 @@ html {
 
 #title {
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: 0;
   right: 0;
   color: #FFF;
@@ -79,7 +79,7 @@ html {
 }
 
 #logo {
-  max-width: 500px;
+  max-width: 400px;
   border-radius: 50%;
 }
 

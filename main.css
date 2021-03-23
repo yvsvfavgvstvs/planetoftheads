@@ -80,7 +80,7 @@ html {
 
 #logo {
   max-width: 300px;
-  border-radius: 30px;
+  border-radius: 50%;
 }
 
 @keyframes animStar {

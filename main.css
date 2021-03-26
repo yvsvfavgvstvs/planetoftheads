@@ -58,31 +58,27 @@ html {
   box-shadow: 1526px 1550px #FFF, 341px 411px #FFF, 79px 580px #FFF, 1609px 1665px #FFF, 1164px 1966px #FFF, 1349px 587px #FFF, 1882px 1101px #FFF, 1600px 834px #FFF, 30px 1488px #FFF, 703px 319px #FFF, 341px 1880px #FFF, 1858px 1635px #FFF, 1460px 1764px #FFF, 10px 1647px #FFF, 206px 189px #FFF, 1923px 1331px #FFF, 990px 369px #FFF, 1240px 1888px #FFF, 235px 1066px #FFF, 1141px 465px #FFF, 1186px 218px #FFF, 1174px 520px #FFF, 1777px 825px #FFF, 816px 1787px #FFF, 1971px 58px #FFF, 1246px 813px #FFF, 1184px 1501px #FFF, 1158px 776px #FFF, 58px 1300px #FFF, 495px 938px #FFF, 58px 321px #FFF, 1590px 985px #FFF, 234px 1261px #FFF, 572px 1105px #FFF, 906px 1691px #FFF, 949px 1428px #FFF, 898px 1624px #FFF, 277px 1310px #FFF, 1955px 1662px #FFF, 1789px 278px #FFF, 1003px 1488px #FFF, 1069px 507px #FFF, 1175px 1624px #FFF, 152px 405px #FFF, 959px 55px #FFF, 1329px 1604px #FFF, 1908px 1885px #FFF, 695px 993px #FFF, 1827px 108px #FFF, 1362px 610px #FFF, 1632px 1809px #FFF, 1744px 625px #FFF, 1580px 1377px #FFF, 1470px 168px #FFF, 139px 1037px #FFF, 74px 1793px #FFF, 82px 1164px #FFF, 1796px 882px #FFF, 27px 906px #FFF, 1819px 607px #FFF, 1178px 1818px #FFF, 1201px 23px #FFF, 282px 1201px #FFF, 1788px 759px #FFF, 1626px 306px #FFF, 549px 1023px #FFF, 930px 422px #FFF, 82px 435px #FFF, 1717px 781px #FFF, 613px 1531px #FFF, 574px 816px #FFF, 1074px 1441px #FFF, 447px 102px #FFF, 1432px 1975px #FFF, 83px 1899px #FFF, 1230px 1739px #FFF, 1090px 168px #FFF, 161px 792px #FFF, 1128px 582px #FFF, 1199px 1064px #FFF, 1098px 1833px #FFF, 1626px 1966px #FFF, 1136px 646px #FFF, 1279px 1183px #FFF, 1899px 284px #FFF, 1936px 1598px #FFF, 137px 852px #FFF, 796px 752px #FFF, 171px 787px #FFF, 1546px 1770px #FFF, 1958px 912px #FFF, 1082px 813px #FFF, 1250px 338px #FFF, 1397px 1452px #FFF, 275px 159px #FFF, 350px 1150px #FFF, 412px 199px #FFF, 1282px 648px #FFF, 1986px 1063px #FFF, 628px 474px #FFF;
 }
 
-#title {
+#planet-logo {
   position: absolute;
-  top: 20%;
+  top: 50%;
   left: 0;
   right: 0;
-  color: #FFF;
   text-align: center;
-  font-family: "lato", sans-serif;
-  font-weight: 300;
-  font-size: 30px;
-  letter-spacing: 10px;
-  margin-top: -60px;
+  /* margin-top: -25vh; */
+  transform: translateY(-50%);
 }
 
-#title span {
+#logo-img {
+  max-width: 50vh;
+  max-height: 50vh;
+  border-radius: 50%;
+  box-shadow: 0px 0px 30px 0px #bbdefb;
+}
+
+#cool-text {
   background: -webkit-linear-gradient(white, #38495a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-#logo {
-  max-width: 70vh;
-  max-height: 70vh;
-  border-radius: 50%;
-  box-shadow: 0px 0px 30px 0px #fff;
 }
 
 @keyframes animStar {

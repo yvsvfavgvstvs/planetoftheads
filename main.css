@@ -68,8 +68,8 @@ html {
 }
 
 #logo-img {
-  max-width: 30vh;
-  max-height: 30vh;
+  max-width: 40vh;
+  max-height: 40vh;
   border-radius: 50%;
   box-shadow: 0px 0px 30px 0px #bbdefb;
 }

@@ -1,0 +1,172 @@
+#planet-container {
+position: relative;
+margin-top: -4.5em;
+margin-bottom: -3em;
+}
+
+@media screen and (max-width: 1280px) {
+#planet-container {
+margin-top: -2.5em;
+margin-bottom: -1em;
+}
+}
+
+@media screen and (max-width: 736px) {
+#planet-container {
+margin-top: -1em;
+margin-bottom: 0em;
+}
+}
+
+#planet-container:after {
+content: "";
+position: absolute;
+top: 0%;
+left: 0;
+right: 0;
+text-align: center;
+margin: 0 auto;
+height: 30vh;
+width: 30vh;
+z-index: -1;
+border-radius: 100%;
+-webkit-filter: blur(3vw);
+-moz-filter: blur(3vw);
+-ms-filter: blur(3vw);
+filter: blur(3vw);
+background: linear-gradient(270deg, #03B3C3, #D856BF);
+background-size: 200% 200%;
+animation: animateGlow 5s ease infinite;
+}
+
+@keyframes animateGlow {
+0% {
+background-position: 0% 50%;
+}
+50% {
+background-position: 100% 50%;
+}
+100% {
+background-position: 0% 50%;
+}
+}
+
+
+
+#planet-img {
+width: 30vh;
+height: 30vh;
+border-radius: 100%;
+border: solid 10px rgba(255, 255, 255, 0.2);
+}
+
+
+
+#btn-cta {
+border: solid #ededed 2px;
+border-radius: 8px;
+color: #999999;
+}
+
+
+
+#heading-text {
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 2em;
+font-weight: 500;
+margin-top: -1em;
+}
+
+@media screen and (max-width: 1280px)  {
+#heading-text {
+margin-top: -1em;
+}
+}
+
+@media screen and (max-width: 736px) {
+#heading-text {
+margin-top: 0em;
+}
+}
+
+#heading-span {
+font-weight: 700;
+color: #8cc9f0;
+}
+
+
+
+/*YOUTUBE VIDEO*/
+
+
+
+@media screen and (max-width: 1280px)  {
+#free-video {
+width: 100%;
+height: 400px;
+}
+}
+
+@media screen and (max-width: 736px) {
+#free-video {
+width: 100%;
+height: 300px;
+}
+}
+
+#btn-cta-blue {
+margin-top: 3em;
+font-size: 1.5em;
+font-weight: 500;
+}
+
+@media screen and (max-width: 1280px)  {
+#btn-cta-blue {
+margin-top: 1.7em;
+font-size: 1.3em;
+}
+}
+
+#asterix-txt {
+color: #999999; font-size: 14px; margin-top: -3em;
+}
+
+@media screen and (max-width: 1280px)  {
+#asterix-txt {
+margin-top: -2.5em;
+}
+}
+
+@media screen and (max-width: 736px) {
+#asterix-txt {
+margin-top: -1.5em;
+}
+}
+
+#special-header-1 {
+margin-top: 3em; margin-bottom: 4em; font-family: 'Source Sans Pro', sans-serif; font-size: 2em; font-weight: 500;
+}
+
+#special-header-2 {
+margin-top: -2em;
+}
+#special-header-2 code {
+color: #ffffff;background-color: #777777; border: none;
+}
+
+@media screen and (max-width: 736px) {
+#special-header-1 {
+font-size: 1.3em;
+}
+}
+
+#img-scrnsht {
+border: solid #999999 2px; border-radius: 8px;
+}
+
+#p-blue {
+font-weight: 700; color: #8cc9f0;
+}
+#p-pink {
+font-weight: 700; color: #efa8b0;
+}
